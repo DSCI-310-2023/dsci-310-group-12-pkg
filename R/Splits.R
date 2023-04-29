@@ -5,7 +5,6 @@
 #' @export
 splits <- function(data,ratio) {
   # libraries
-  library(caTools)
   # code
   x <- sample.split(data,SplitRatio = ratio)
   return(x)

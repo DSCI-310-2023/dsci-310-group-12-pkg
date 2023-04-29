@@ -1,5 +1,5 @@
 # Split function test
-
+library(caTools)
 library(testthat)
 library(devtools)
 
